@@ -1,2 +1,0 @@
-# chrysoskun.github.io
-blog
