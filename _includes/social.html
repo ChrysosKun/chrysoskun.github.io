@@ -129,6 +129,6 @@
   </li>
   {%- endif -%}{%- if social.email -%}
   <li>
-              <a class="u-email black-link" href="mailto:{{ site.email }}">[Email]</a></li>
+              <a class="u-email black-link" href="mailto:{{ site.email | cgi_escape | escape}}">[Email]</a></li>
   {%- endif -%}
 </ul>
