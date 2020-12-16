@@ -3,7 +3,7 @@ author: ChrysosKun # Your name
 email: chrysoskun@tutanota.com # your email shown in the footer
 url: https://sh.chrysoskun.one/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  人非生而知之者，孰能无惑？
+  人非生而知之者
 favicon: "./favicon.ico" # set the favicon of the site 
 
 show_excerpts: false # set to true to show excerpts on the homepage
