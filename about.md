@@ -4,5 +4,4 @@ layout: about
 
 ### What's New
 
-- One paper got accepted in xxx 2019.
-- I'm going to join xxx as a xxx 2019 Fall.
+pgp:7C13 A4CD FFC6 D0F8 F9DF  D304 82E5 7563 48D1 24E5
