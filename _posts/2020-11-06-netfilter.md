@@ -4,8 +4,6 @@ categories: [linux,network]
 comments: true
 ---
 
-* TOC
-{:toc}
 ## 什么是Netfilter
 
 Netfilter是Linux第三代防火墙，在此之前还有Ipfwadm和[Ipchains](https://zh.wikipedia.org/wiki/Ipchains)。
