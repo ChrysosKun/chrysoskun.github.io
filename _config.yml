@@ -1,9 +1,9 @@
 
-title: 琅琊琊的小窝
+title: ChrysosKun's blog
 
 description: Non sunt multiplicanda entia sine necessitate
 
-url: https://langyaya.me
+url: https://sh.chrysoskun.one
 
 permalink: /:year-:month/:title
 timezone: Asia/Shanghai
@@ -17,10 +17,10 @@ feed:
     path: feed.xml
 
 user:
-  name: 琅琊琊
+  name: ChrysosKun
   email: 
-  pic: https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/pik.jpg
-  picAlt: "琅琊琊的小窝"
+  pic: https://cdn.jsdelivr.net/gh/chrysoskun/chrysoskun.github.io/assets/img/pik.jpg
+  picAlt: "ChrysosKun's blog"
   aboutme: true 
   search: true
   links: true
