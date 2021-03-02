@@ -1,51 +1,54 @@
-title: 回憶錄 # The title of the blog
-author: ChrysosKun # Your name 
-email: chrysoskun@tutanota.com # your email shown in the footer
-url: https://sh.chrysoskun.one/ # this is your site's root address.
-description: > # this means to ignore newlines until "show_excerpts:"
-  人非生而知之者，孰能无惑？
-favicon: "./favicon.ico" # set the favicon of the site 
 
-show_excerpts: false # set to true to show excerpts on the homepage
-  
-disqus: chrysoskun
-# Moving date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-moving:
-  avatar_url: "https://sh.chrysoskun.one/assets/avatar.jpg" # avatar in about page
-  about_you: 山不在高，有仙则名；水不在深，有龙则灵 # short description about you in about page
-  date_format: "%b %d" # date format of posts in home page
-  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+title: 琅琊琊的小窝
 
-  # generate social links in about page.
-  social_links:
-    # twitter: 
-    github:  ChrysosKun
-    rss: RSS
-    email: chrysoskun@tutanota.com
-    # dribbble: 
-    #facebook: 
-    # flickr:   
-    # instagram: 
-    #linkedin: 
-    # pinterest: 
-    # youtube: 
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
+description: Non sunt multiplicanda entia sine necessitate
 
-    # Mastodon instances
-    # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
+url: https://langyaya.me
 
-# Build settings
-#theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
+permalink: /:year-:month/:title
+timezone: Asia/Shanghai
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+favicon: /assets/img/favicon.ico
+
+#google_analytics: 
+disqus_shortname: langyaya
+
+feed:
+    path: feed.xml
+
+user:
+  name: 琅琊琊
+  email: 
+  pic: https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/pik.jpg
+  picAlt: "琅琊琊的小窝"
+  aboutme: true 
+  search: true
+  links: true
+exclude:
+  - README.md
+  - LICENSE
+  - github
+  - .jekyll-cache
+defaults:
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      comment: true   
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown: kramdown
+
+# Gitalk settings
+#comment_gitalk_clientId: 
+#comment_gitalk_clientSecret: 
+#comment_gitalk_repo: 
+#github_username: 
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      false
+unpublished: false
+

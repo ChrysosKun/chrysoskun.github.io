@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+  
+  {% include snow.html %}
+  <div class="content">
+
+    {% include header.html %}
+  
+    {% include mobile_menu.html %}
+    
+    <main class="main">
+
+    {{ content }}
+
+    </main>
+  </div>
+
+  {% include footer.html %}
+  {% include js.html %}
+</body>
+<!--<script type='text/javascript'> 
+    window.oncontextmenu=function(){return false;} 
+    window.onkeydown = window.onkeyup = window.onkeypress = function () { 
+    window.event.returnValue = false; 
+        return false; 
+    } 
+    var h = window.innerHeight,w=window.innerWidth; 
+    window.onresize = function () { 
+        if (h!= window.innerHeight||w!=window.innerWidth){ 
+            window.close(); 
+            window.location = "about:blank"; 
+        } 
+    } 
+</script> -->
+</html>

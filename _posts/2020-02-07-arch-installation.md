@@ -15,7 +15,7 @@ comments: true
 
 
 
-![image](https://cdn.jsdelivr.net/gh/chrysoskun/chrysoskun.github.io/assets/img/arch/image01.png)
+![image](https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/arch/image01.png)
 
 ## 验证
 
