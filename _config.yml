@@ -23,7 +23,7 @@ user:
   picAlt: "ChrysosKun's blog"
   aboutme: true 
   search: true
-  links: true
+  links: false
 exclude:
   - README.md
   - LICENSE
