@@ -1,7 +1,7 @@
 
-title: ChrysosKun's blog
+title: 这个需要记下来
 
-description: Non sunt multiplicanda entia sine necessitate
+description: 
 
 url: https://sh.chrysoskun.one
 
@@ -11,7 +11,7 @@ timezone: Asia/Shanghai
 favicon: /assets/img/favicon.ico
 
 #google_analytics: 
-disqus_shortname: langyaya
+disqus_shortname: chrysoskun
 
 feed:
     path: feed.xml
