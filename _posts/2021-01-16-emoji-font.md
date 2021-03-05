@@ -16,7 +16,7 @@ sudo pacman -S noto-fonts-emoji
 
 # 配置文件
 
-在 `/etc/fonts/conf.avail/` 中创建 `75-noto-color-emoji.conf` 文件
+在 `/etc/fonts/conf.avail/` 中创建 `108-noto-color-emoji.conf` 文件
 
 写入以下配置
 
@@ -130,7 +130,7 @@ sudo pacman -S noto-fonts-emoji
 # 启用
 
 ```bash
-sudo ln -sf /etc/fonts/conf.avail/75-noto-color-emoji.conf /etc/fonts/conf.d/
+sudo ln -sf /etc/fonts/conf.avail/108-noto-color-emoji.conf /etc/fonts/conf.d/
 ```
 
 # 参考资料
