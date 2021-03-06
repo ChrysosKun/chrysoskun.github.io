@@ -47,6 +47,13 @@
         </li>
       </ul>
       {% endif %}
+       {% if site.user.key %}
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="{{ site.url }}/key.md">key</a>
+        </li>
+      </ul>
+      {% endif %}
            {% if site.feed %}
       <ul class="nav_list">
         <li class="nav_item">

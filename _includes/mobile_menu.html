@@ -6,14 +6,20 @@
     <li class="nav_item">
       <a href="{{ site.url }}/feed.xml">rss</a>
     </li>
-
     {% endif %}
+    
+        {% if site.user.key %}
+    <li class="nav_item">
+      <a href="{{ site.url }}/key.md">key</a>
+    </li>
+    {% endif %}
+    
     {% if site.user.aboutme %}
     <li class="nav_item">
       <a href="{{ site.url }}/aboutme.html">about</a>
     </li>
-
     {% endif %}
+    
     {% if site.user.links %}
     <li class="nav_item">
       <a href="{{ site.url }}/links.html">links</a>
