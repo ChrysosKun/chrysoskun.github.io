@@ -24,6 +24,7 @@ user:
   aboutme: true 
   search: true
   links: false
+  key: true
 exclude:
   - README.md
   - LICENSE
