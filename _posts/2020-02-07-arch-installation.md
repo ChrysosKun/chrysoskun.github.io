@@ -8,9 +8,6 @@ comments: true
 
 * TOC
 {:toc}
-- **参考自[ArchWiki](https://wiki.archlinux.org/index.php/Main_page_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87))和[#archlinux-cn](https://t.me/archlinuxcn_group)**
-- **记录arch安装为自己以后重装查看某些步骤**
-
 ------
 
 
@@ -348,4 +345,10 @@ sudo pacman -S network-manager-applet
 ```shell
 reboot
 ```
+
+## 参考资料
+
+[[1]](https://wiki.archlinux.org/index.php/Main_page)
+
+[[2]](https://t.me/archlinuxcn_group)
 
