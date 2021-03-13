@@ -42,7 +42,7 @@ source /home/user/Documents/teminal_proxy.sh
 
 效果
 
-![image](https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/proxy/image.png)
+![image](https://cdn.jsdelivr.net/gh/chrysoskun/chrysoskun.github.io/assets/img/proxy/image.png)
 
 ------
 
@@ -73,7 +73,7 @@ vim /etc/proxychains.conf
 
 添加 socks5 127.0.0.1 1080 (根据自己实际代理端口设置)
 
-![image](https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/proxy/image01.png)
+![image](https://cdn.jsdelivr.net/gh/chrysoskun/chrysoskun.github.io/assets/img/proxy/image01.png)
 
 测试
 
@@ -81,7 +81,7 @@ vim /etc/proxychains.conf
 proxychains4 curl cip.cc
 ```
 
-![image](https://cdn.jsdelivr.net/gh/langyaya/langyaya.github.io/assets/img/proxy/image02.png)
+![image](https://cdn.jsdelivr.net/gh/chrysoskun/chrysoskun.github.io/assets/img/proxy/image02.png)
 
 完成。
 
