@@ -231,7 +231,7 @@ reboot
 ## 创建交换文件
 
 ```
-dd if=/dev/zero of=/swapfile bs=1M count=512 status=progress
+dd if=/dev/zero of=/swapfile bs=1M count=512
 ```
 
 更改权限
